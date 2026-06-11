@@ -14,7 +14,7 @@ Scout Agent is a multi-agent AI system that helps football clubs discover player
                ▼
 ┌─────────────────────────────────┐
 │         Streamlit UI            │
-│  4 Tabs: Search · Transfer ·   │
+│  4 Tabs: Search · Transfer ·    │
 │          Debate · Shortlist     │
 └──────────────┬──────────────────┘
                │
@@ -28,13 +28,13 @@ Scout Agent is a multi-agent AI system that helps football clubs discover player
        ▼                  ▼
 ┌──────────────────────────────────┐
 │         MongoDB Atlas            │
-│  16,228 players · EAFC 26 data  │
+│  16,228 players · EAFC 26 data   │
 └──────────────────────────────────┘
        │
        ▼
 ┌──────────────────────────────────┐
 │       Google Gemini API          │
-│  NL parsing · Reports · Debate  │
+│  NL parsing · Reports · Debate   │
 └──────────────────────────────────┘
 ```
 
@@ -65,16 +65,16 @@ Save players across all tabs. Persist shortlists to MongoDB with named lists.
 
 ## 🛠️ Tech Stack
 
-| Layer | Technology |
-|-------|-----------|
+|  Layer   | Technology |
+|----------|-----------|
 | Frontend | Streamlit |
 | AI / LLM | Google Gemini API (gemini-2.0-flash) |
 | Database | MongoDB Atlas |
-| Data | EAFC 26 dataset (16,228 players) |
-| Backend | Python 3.11+ |
-| Memory | MongoDB (memories, shortlists collections) |
-| Config | python-dotenv |
-| Models | Pydantic |
+| Data     | EAFC 26 dataset (16,228 players) |
+| Backend  | Python 3.11+ |
+| Memory   | MongoDB (memories, shortlists collections) |
+| Config   | python-dotenv |
+| Models   | Pydantic |
 
 ---
 
